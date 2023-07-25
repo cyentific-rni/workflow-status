@@ -2,6 +2,10 @@
 
 This repository provides a base schema for capturing workflow execution status data. It can be tailored according to the requirements of the underlying technology and is aimed to be used both for playbooks and workflows executed manually, automatically or in a hybrid manner. In addition, [section 2](#2-refined-schema-for-oasis-cacao-security-playbooks) provides a refined version of the schema aimed to be used with the [OASIS CACAO Playbooks Standard](https://www.oasis-open.org/committees/cacao). Finally, [section 3](#3-json-validation-schema) provides a JSON validation schema for the refined approach presented in [section 2](#2-refined-schema-for-oasis-cacao-security-playbooks).
 
+
+`PLACEHOLDER: Add image with pseudo-implementation`
+
+
 ## 1. Execution Status Schema
 | Property Name | Description|
 | :--- | :--- |
