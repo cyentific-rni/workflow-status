@@ -48,7 +48,7 @@ For the definitions of the data types, please check the CACAO specification.
 | executed_by (optional) |identifier| The entity executed the workflow step. This can be an `agent-target` or a STIX 2.1 Identity object id. |  
 | command_b64 (required) |list of type string| A list of Base64 encodings of the commands that were invoked during the execution of a workflow step, including any values stemming from variables. These are the actual commands executed. |  
 | notes (optional) |string|This property allows incorporating notes (more context) pertinent to the execution of the workflow step. |  
-| automated_execution (required) |bollena| This property identifies if the workflow step was executed manually or automatically. It is either `true` or `false`. |
+| automated_execution (required) |boolean| This property identifies if the workflow step was executed manually or automatically. It is either `true` or `false`. |
 
 ## 2.1 Refined Execution Status Enumeration
 **Vocabulary Name:** `execution-status-enum`
