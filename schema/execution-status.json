@@ -2,7 +2,7 @@
     "$id": "https://raw.githubusercontent.com/cyentific-rni/workflow-status/main/schema/execution-status.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "execution-status",
-    "description": "Execution status schema aimed to be used with the OASIS CACAO Playbooks Standard. It provides a schema for capturing workflow execution status data, which is aimed to be used both for playbooks and workflows executed manually, automatically or in a hybrid manner.",
+    "description": "JSON validation schema for tracking the execution of CACAO playbooks.",
     "type": "object",
     "properties": {
         "type": {
