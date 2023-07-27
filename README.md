@@ -5,9 +5,9 @@ This repository provides a base schema for capturing workflow execution status d
 
 `PLACEHOLDER: Add image with pseudo-implementation`
 
-### Table of Content
+### Table of Contents
 - [Tracking the Execution Status of Workflows](#tracking-the-execution-status-of-workflows)
-    - [Table of Content](#table-of-content)
+    - [Table of Contents](#table-of-contents)
   - [1. Execution Status Schema](#1-execution-status-schema)
   - [1.1 Execution Status Enumeration](#11-execution-status-enumeration)
   - [2. Refined Schema for OASIS CACAO Security Playbooks](#2-refined-schema-for-oasis-cacao-security-playbooks)
@@ -25,7 +25,7 @@ This repository provides a base schema for capturing workflow execution status d
 | duration (optional) | A number (𝕎 - whole number) that represents the amount of time in milliseconds that this step required to be fully performed. |
 | status (required) | This property identifies the execution status of the workflow step. The value of this property **SHOULD** come from the `execution-status-enum` enumeration. |  
 | status_text (optional) | A description that provides more details pertinent to the execution status of the workflow step. |  
-| executed_by (optional) | The entity executed the workflow step. This can be an organization, a team,  or a role, a defence component, etc. |  
+| executed_by (optional) | The entity executed the workflow step. This can be an organization, a team, a role, a defence component, etc. |  
 | command_b64 (required) | A list of Base64 encodings of the commands that were invoked during the execution of a workflow step, including any values stemming from variables. These are the actual commands executed. |  
 | notes (optional) | This property allows incorporating notes (more context) pertinent to the execution of the workflow step. |  
 | automated_execution (required) | This property identifies if the workflow step was executed manually or automatically. It is either `true` or `false`. |
@@ -40,7 +40,7 @@ This repository provides a base schema for capturing workflow execution status d
 |server_side_error| A server-side error occurred. |
 |client_side_error| A client-side error occurred.|
 |timeout_error| A timeout error occurred. |
-|exception_condition_error| A exception condition error occured. |
+|exception_condition_error| A exception condition error occurred. |
 
 ## 2. Refined Schema for OASIS CACAO Security Playbooks
 For the definitions of the data types, please check the CACAO specification.
@@ -69,8 +69,8 @@ For the definitions of the data types, please check the CACAO specification.
 |server_side_error| A server-side error occurred. |
 |client_side_error| A client-side error occurred.|
 |timeout_error| A timeout error occurred. The timeout of a CACAO workflow step is specified in the “timeout” property. |
-|exception_condition_error| A exception condition error ocurred. A CACAO playbook can incorporate an exception condition at the playbook level and in particular with the "workflow_exception" property. |
+|exception_condition_error| A exception condition error ocurred. A CACAO playbook can incorporate an exception condition at the playbook level and, in particular, with the "workflow_exception" property. |
 
 ## 3. JSON Validation Schema
 
-[Execution status JSON schema](https://github.com/cyentific-rni/workflow-status/blob/main/schema/execution-status.json)
+[JSON schema](https://github.com/cyentific-rni/workflow-status/blob/main/schema/execution-status.json)
