@@ -5,6 +5,15 @@ This repository provides a base schema for capturing workflow execution status d
 
 `PLACEHOLDER: Add image with pseudo-implementation`
 
+### Table of Content
+- [Tracking the Execution Status of Workflows](#tracking-the-execution-status-of-workflows)
+    - [Table of Content](#table-of-content)
+  - [1. Execution Status Schema](#1-execution-status-schema)
+  - [1.1 Execution Status Enumeration](#11-execution-status-enumeration)
+  - [2. Refined Schema for OASIS CACAO Security Playbooks](#2-refined-schema-for-oasis-cacao-security-playbooks)
+  - [2.1 Refined Execution Status Enumeration](#21-refined-execution-status-enumeration)
+  - [3. JSON Validation Schema](#3-json-validation-schema)
+
 
 ## 1. Execution Status Schema
 | Property Name | Description|
@@ -64,7 +73,7 @@ For the definitions of the data types, please check the CACAO specification.
 
 ## 3. JSON Validation Schema
 
-```
+```json
 schema
 ```
 
