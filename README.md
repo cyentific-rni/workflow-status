@@ -74,3 +74,6 @@ For the definitions of the data types, please check the CACAO specification.
 ## 3. JSON Validation Schema
 
 [JSON schema](https://github.com/cyentific-rni/workflow-status/blob/main/schema/execution-status.json)
+
+### Acknowledgments
+The Cyentific team would like to express its gratitude to Dr Konstantinos Fysarakis of Sphynx Analytics Ltd. for his contribution.
