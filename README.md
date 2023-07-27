@@ -73,7 +73,4 @@ For the definitions of the data types, please check the CACAO specification.
 
 ## 3. JSON Validation Schema
 
-```
-schema
-```
-
+[Execution status JSON schema](https://github.com/cyentific-rni/workflow-status/blob/main/schema/execution-status.json)
