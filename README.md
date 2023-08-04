@@ -47,7 +47,7 @@ For the definitions of the data types, please check the CACAO specification.
 | :--- | :--- |:--- |
 | type (required) |string| This property identifies the semantic type of the object. The value of this property **MUST** be `execution-status`. |
 | id (required) | identifier |A identifier that uniquely identifies this object (e.g., execution-status–UUIDv4). |
-| workflow_id (required)| The identifier of the CACAO playbook being executed and tracked. | 
+| workflow_id (required)| identifier| The identifier of the CACAO playbook being executed and tracked. | 
 | workflow_step (required)|identifier| The identifier of the CACAO workflow step this object refers to (tracks). |  
 | start_time (required) |timestamp| A timestamp that identifies the time the step execution started. | 
 | duration (optional) |integer| A number (𝕎 - whole number) that represents the amount of time in milliseconds that this step required to be fully performed. |
