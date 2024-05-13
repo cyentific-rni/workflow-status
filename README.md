@@ -35,6 +35,7 @@ This repository provides a base schema for capturing workflow execution status d
 | successfully_executed | The workflow step was executed successfully (completed). |
 |failed| The workflow step failed. |
 |ongoing| The workflow step is in progress. |
+|await_user_input| The workflow manual step is awaiting user input. |
 |server_side_error| A server-side error occurred. |
 |client_side_error| A client-side error occurred.|
 |timeout_error| A timeout error occurred. |
@@ -65,6 +66,7 @@ For the definitions of the data types, please check the CACAO specification.
 | successfully_executed | The workflow step was executed successfully (completed). |
 |failed| The workflow step failed. |
 |ongoing| The workflow step is in progress. |
+|await_user_input| The workflow manual step is awaiting user input. |
 |server_side_error| A server-side error occurred. |
 |client_side_error| A client-side error occurred.|
 |timeout_error| A timeout error occurred. The timeout of a CACAO workflow step is specified in the “timeout” property. |
